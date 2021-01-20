@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Socket Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+</head>
+<body>
+    <h1>chat here</h1>
+    <div id="usersOnline">k</div>
+    <div id="output"></div>
+    <div id="feedback"></div>
+    <form id="form">
+        name<input type="text" id="handle" placeholder="name here" required>
+        message<input type="text" id="message" placeholder="type here" required>
+        <button id="send">Submit</button>
+    </form>
+    <script src="/chat.js"></script>
+</body>
+</html>
